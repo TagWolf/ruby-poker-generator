@@ -2,6 +2,8 @@
 
 Generates infinite poker hands in terminal. Don't judge me.
 
+To-Do: Add wins/losses calc.
+
 Example output (except with colors):
 
    K♦    4♠    2♦    K♠    8♥
