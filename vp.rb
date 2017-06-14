@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-begin
-
   class String
     def black; "\e[30m\e[47m#{self}\e[0m" end
     def red;   "\e[31m\e[47m#{self}\e[0m" end
@@ -16,6 +14,8 @@ begin
   diamond = "\u2666"
   club    = "\u2663"
   heart   = "\u2665"
+
+begin
 
   cards.shuffle!
 
